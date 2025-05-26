@@ -49,9 +49,7 @@ Assists banks and NBFCs in automating loan approvals
 Minimizes manual errors and improves decision consistency
 Can be integrated into a loan application portal with real-time eligibility feedback
 
-📌 Future Scope:
+## Future Scope:
 Deploy model as a web app using Flask or Streamlit
-
 Incorporate additional features like credit score, employment history
-
 Retrain periodically with real-time data
