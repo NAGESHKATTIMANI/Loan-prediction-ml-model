@@ -8,67 +8,43 @@ To build a machine learning model that accurately predicts whether a loan applic
 
 ## Tools & Technologies Used:
 Python – for model development
-
 Pandas & NumPy – for data manipulation
-
 Matplotlib  – for exploratory data analysis and visualization
-
 Scikit-learn – for preprocessing, model training, and evaluation
-
 Jupyter Notebook – as the development environment
 
 ## Dataset Details:
 Source: Kaggle – Loan Prediction Dataset
-
+<a href="https://github.com/NAGESHKATTIMANI/Loan-prediction-ml-model/blob/main/loan-train.csv"></a>
 Features: Gender, Marital Status, Education, Applicant Income, Loan Amount, Credit History, Property Area, etc.
-
 Target: Loan Status (Y/N)
 
-🔍 Approach:
+## Approach:
 Data Cleaning:
-
 Handled missing values for features like LoanAmount and Credit_History
+Converted categorical variables using Label Encoding 
 
-Converted categorical variables using Label Encoding and One-Hot Encoding
-
-Exploratory Data Analysis (EDA):
-
+### Exploratory Data Analysis (EDA):
 Uncovered trends such as higher approval rates for applicants with credit history and steady income
-
 Identified correlations between features and target variable
 
-Model Building:
-
-Tried multiple classification algorithms:
-
+## Model Building:
+As it is my first ml project so built it using 
 Logistic Regression
-
-Decision Tree
-
-Random Forest
-
-XGBoost
-
+and got an accuracy of 80% which ig good for a beginner...:)
 Hyperparameter tuning performed using GridSearchCV
 
-Evaluation Metrics:
-
+##Evaluation Metrics:
 Accuracy, Precision, Recall, F1 Score, Confusion Matrix
+model achieved ~82% accuracy on test data
 
-Best model achieved ~82% accuracy on test data
-
-🧠 Key Learnings & Insights:
+## Key Learnings & Insights:
 Applicants with credit history, higher income, and less loan amount had better chances of loan approval
-
-Random Forest outperformed other models in both accuracy and generalization
-
 Feature importance analysis helped explain model decisions
 
-💡 Real-world Applications:
+## Real-world Applications:
 Assists banks and NBFCs in automating loan approvals
-
 Minimizes manual errors and improves decision consistency
-
 Can be integrated into a loan application portal with real-time eligibility feedback
 
 📌 Future Scope:
