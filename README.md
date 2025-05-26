@@ -53,3 +53,7 @@ Can be integrated into a loan application portal with real-time eligibility feed
 Deploy model as a web app using Flask or Streamlit
 Incorporate additional features like credit score, employment history
 Retrain periodically with real-time data
+
+# Link to the model
+model is built using flask and deployed usind render
+<a href="https://loan-prediction-ml-model-nageshvkattimani.onrender.com/">Click here</a>
